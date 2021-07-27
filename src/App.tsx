@@ -11,9 +11,11 @@ const AppContainer = styled.div`
 `;
 
 function App() {
-  return <AppContainer>
-    <HomePage></HomePage>
-  </AppContainer>;
+  return (
+    <AppContainer>
+      <HomePage></HomePage>
+    </AppContainer>
+  );
 }
 
 export default App;
